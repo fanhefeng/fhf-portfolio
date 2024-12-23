@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
 	plugins: [react()],
-	base: "/test-portfolio",
+	base: "/fhf-portfolio",
 	build: {
 		outDir: "dist", // 输出目录
 		rollupOptions: {
